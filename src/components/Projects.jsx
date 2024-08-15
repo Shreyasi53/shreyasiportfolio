@@ -5,7 +5,7 @@ const projects = [
   {
     name: 'Spotify clone',
     description: 'A clone of Spotify built with HTML and CSS, featuring music playback and a user-friendly interface.',
-    link: 'https://example.com/project-one',
+    link: 'https://github.com/Shreyasi53/Spotify-clone',
   },
 ];
 

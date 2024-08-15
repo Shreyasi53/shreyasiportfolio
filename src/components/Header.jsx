@@ -8,7 +8,7 @@ const Header = () => {
   const handleScroll = (id, e) => {
     e.preventDefault();
     scrollToSection(id);
-    setMenuOpen(false); // Close menu after clicking a link
+    setMenuOpen(false); //Close menu after clicking a link
   };
 
   const toggleMenu = () => {
@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 bg-gradient-to-r from-purple-500 to-pink-500 text-white p-4 flex justify-between items-center h-16">
+    <header className="sticky top-0 bg-gradient-to-r from-purple-500 to-pink-500 text-white p-4 flex justify-between items-center h-16 z-10">
       <div>
         <img src={logo} alt="Logo" className="h-24" />
       </div>

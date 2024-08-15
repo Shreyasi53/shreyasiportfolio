@@ -17,7 +17,7 @@ const Skills = () => {
       <h2 className="text-3xl font-bold mt-20 mb-10 text-center">Skills</h2>
       <div className="flex flex-wrap justify-center">
         {skills.map((skill) => (
-          <div key={skill.name} className="skill-card bg-white p-14 m-4 shadow-lg rounded-lg flex flex-col items-center w-48 h-52 transition-transform duration-300 hover:scale-105 hover:bg-pink-100">
+          <div key={skill.name} className="skill-card bg-white p-14 m-2 shadow-lg rounded-lg flex flex-col items-center w-48 h-52 transition-transform duration-300  hover:bg-pink-100 hover:scale-105">
             <i className={`${skill.icon} text-6xl mb-4 text-pink-600`}></i>
             <p className="text-xl font-semibold">{skill.name}</p>
           </div>
